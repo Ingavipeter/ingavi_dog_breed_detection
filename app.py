@@ -6,6 +6,8 @@ import numpy as np
 # Load the trained model
 model = tf.keras.models.load_model("dogclassification.h5")
 
+
+
 # Define class names
 class_names = {
         "0": "Afghan",
